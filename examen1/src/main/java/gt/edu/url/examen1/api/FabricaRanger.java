@@ -4,15 +4,19 @@ import gt.edu.url.examen1.impl.Monstruo;
 
 /**
  *
- * @author Victor Orozco
+ * @author Felipe_GB720
  */
 public interface FabricaRanger {
     
     public void hacerAlgo();
     
     public boolean apilar(Monstruo monstruo);
+    
     public boolean desapilar(Monstruo monstruo);
+    
     public boolean encolar(Monstruo monstruo);
+    
     public boolean desencolar(Monstruo monstruo);
+    
     public Monstruo fabricar(String elemento);
 }

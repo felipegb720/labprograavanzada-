@@ -4,13 +4,12 @@ import gt.edu.url.examen1.api.Demo;
 
 /**
  *
- * @author CarlosMorales1171316
+ * @author Felipe_GB720
  */
 public class DemoImpl implements Demo{
 
     @Override
-    public String saludar() {
-        return "Hola mundo";
+  
     }
     
 }

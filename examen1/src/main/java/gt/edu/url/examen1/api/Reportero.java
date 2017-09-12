@@ -2,7 +2,7 @@ package gt.edu.url.examen1.api;
 
 /**
  *
- * @author 
+ * @author Felipe_GB720
  */
 public interface Reportero {
     	

@@ -2,7 +2,7 @@ package gt.edu.url.examen1.impl;
 import java.util.*;
 /**
  *
- * @author CarlosMorales1171316
+ * @author Felipe_GB720
  */
 public class Main {
     

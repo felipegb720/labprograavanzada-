@@ -4,33 +4,33 @@ public class ChudnoskyRecursivo implements Chudnovsky {
 
 	@Override
 
-	public double calcularPi(int cantidadDigitos) {
+	public double calcularPi(int Digitos) {
 		
 		double Chudnovsky;
-		int n = cantidadDigitos; 
-		Chudnovsky = (numerador(n)) / (denominador(n));
+		int NUM = Digitos; 
+		Chudnovsky = (numerador(NUM)) / (denominador(NUM));
 		return Chudnovsky; 
 	}
 	
-	public long factorial (int kDigitos) {
+	public long factorial (int Digitos) {
 		
-		if(kDigitos==0)
+		if(Digitos==0)
 			return 1;
 		else 
-			return kDigitos* factorial(kDigitos-1);
+			return Digitos* factorial(Digitos-1);
 	}
 	
-	public double numerador(int kDigitos) {
+	public double numerador(int Digitos) {
 		
 		double numerador; 
-		numerador = (6*factorial(kDigitos))*((545140134*kDigitos + 13591409));
+		numerador = (6*factorial(Digitos))*((545140134*Digitos + 13591409));
 		return numerador;
 	}
-	public double denominador (int kDigitos) {
+	public double denominador (int Digitos) {
 		
 		double denominador;
 		double numero = -640320;
-		denominador = ((3*factorial(kDigitos))*Math.pow((factorial(kDigitos)),3)*Math.pow(3*numero, kDigitos))  ; 
+		denominador = ((3*factorial(Digitos))*Math.pow((factorial(Digitos)),3)*Math.pow(3*numero, Digitos))  ; 
 		return denominador;
 	}
 }
